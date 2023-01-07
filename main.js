@@ -3,9 +3,9 @@ var euro = 10650.5;
 let ism = prompt('Ismingizni kiriting')
 let money = prompt('Qancha pulingiz bor');
 
-let mon = prompt('Samalyot chiptasi qancha');
-let umumiy = prompt('Umumiy yotoqxona xarajatlari');
-let relax = prompt("Muzey va ko’ngilochar joy xarajatlari");
+let mon = prompt('Samalyot chiptasi necha dollar');
+let umumiy = prompt('Umumiy yotoqxona xarajatlar necha dollar');
+let relax = prompt("Muzey va ko’ngilochar joy xarajatlari necha euro");
 alert(`${ism}da ${money} so'm pul bor`);
 alert(`Samalyot chiptasi ${mon * dollar} so'm`);
 alert(`Umumiy yotoqxona xarajatlari ${umumiy * dollar} so'm`);
